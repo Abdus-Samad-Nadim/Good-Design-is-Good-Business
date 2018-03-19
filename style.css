@@ -1,0 +1,419 @@
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+}
+.navleft{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+.navleft img{
+    height: 90px;
+    width: 150px;
+    margin-left: 150px;
+    margin-top: -8px;
+}
+.navright{
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+.one{
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+.one ul{
+    margin: 32px;
+}
+.one ul li:hover{
+    background-color: #fa8231;
+}
+.one ul li{
+    display: inline;
+    margin-left: 50px;
+}
+.one ul li  a{
+    text-decoration: none;
+    color: black;
+}
+.two{
+    height: 100%;
+    width: 30%;
+    float: left;
+}
+.two form{
+    margin-top: 28px;
+}
+.two form input{
+    height: 20px;
+    width: 80px;
+}
+.two form button {
+    height: 25px;
+    width: 30px;
+    border: none;
+    background-color: #fa8231;
+} 
+.top{
+    height: 400px;
+    width: 100%;
+    background-image: url("city.png");
+    background-repeat: round;
+    background-size: cover;
+}
+.top h2{
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+.top p{
+    text-align: center;
+    color: white;
+    padding: 30px 300px 0px 300px;
+}
+.top button{
+    height: 35px;
+    width: 180px;
+    background-color: #fa8231;
+    border: none;
+    margin-left: 580px;
+    margin-top: 50px;
+}
+.top button a{
+    color: white;
+    text-decoration: none;
+}
+.mid1{
+    height: 350px;
+    width: 100%;
+}
+.mid11{
+    height: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -35px;
+}
+.services{
+    height: 30px;
+    width: 140px;
+    background-color: royalblue;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services h4{
+    color: white;
+    text-align: center;
+    padding-top: 7px;
+}
+.mid12{
+    height: 300px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.midmain{
+    height: 100%;
+    width: 200px;
+    float: left;
+    margin: 25px;
+    
+}
+.midmain img{
+    margin-left: 60px;
+}
+.midmain h4,p{
+    text-align: center;
+}
+.midmain a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.mid2{
+    height: 400px;
+    width: 100%;
+    background-color: #34495e;
+}
+.mid2main{
+    height: 85%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+.mid2main h3{
+    color: #fa8231;
+    margin-left: 40px;
+}
+.mid2main button{
+    float: right;
+    height: 30px;
+    width: 140px;
+    background-color: dodgerblue;
+    border: none;
+    margin-top: -40px;
+    margin-right: 42px;
+    
+}
+.mid2main button a{
+    color: white;
+    text-decoration: none;
+}
+.three{
+    height: 280px;
+    width: 30%;
+    float: left;
+    padding-left: auto;
+    margin-left: 23px; 
+}
+.three h4{
+    color: #fa8231;
+    margin-left: 17px;
+}
+.three p{
+    color: white;
+    text-align: left;
+    margin-left: 17px;
+    font-size: 15px;
+    
+}
+.four{
+    height: 140px;
+    width: 80%;
+    float: left;
+    background-color: darkgray;
+    border: 10px solid white;
+    margin: 18px;  
+}
+.four img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 45px;
+}
+.four .fa{
+    font-size: 20px;
+}
+.four button{
+    margin-left: auto;
+    margin-right: 38px;
+    display: block;
+    margin-top: 53px;
+    height: 35px;
+    width: 150px;
+    background-color: dimgray;
+}
+
+.mid3{
+    height: 350px;
+    width: 100%;
+}
+.mid3top{
+    height: 100px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid3top h2{
+    text-align: center;
+    color: dodgerblue;
+}
+.mid3top p{
+    text-align: center;
+}
+.mid3bottom{
+    height: 250px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mid3main{
+    height: 200px;
+    width: 220px;
+    float: left;
+    margin: 15px;
+}
+.mid3main h4{
+    color: dodgerblue;
+}
+.mid3main p{
+    text-align:left;
+}
+.mid3main button{
+    float: right;
+    height: 20px;
+    width: 70px;
+    background-color: dodgerblue;
+    border: none;
+}
+.mid3main  button a{
+    text-decoration: none;
+    color: white;
+}
+.mid3main a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.bottom{
+    height: 350px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottomtop{
+    height: 150px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottomtop h2{
+    text-align: center;
+    color: dodgerblue;
+}
+.bottomtop p{
+    text-align: center;
+}
+.bottomlast{
+    height: 170px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bottomlast p{
+    text-align: center;
+    color: #fa8231;
+}
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: #34495e;
+}
+.footer1{
+    height: 330px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+}
+.footer1 h3{
+    color: #fa8231;
+}
+.fmainone{
+    height: 300px;
+    width: 230px;
+    float: left;
+    margin: 10px;
+}
+.fmainleft{
+    height: 80px;
+    width: 100%;
+    float: left; 
+}
+.fmainleft p{
+    color: white;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 0px;
+}
+.fmainleft a{
+    color: dodgerblue;
+    text-decoration: none;
+}
+.fmaintwo{
+    height: 300px;
+    width: 230px;
+    float: left;
+    margin: 10px;
+}
+.fmaintwo p{
+    text-align: left;
+    color: white;
+    font-size: 14px;
+}
+.fmaintwo h4{
+    color: dodgerblue;
+}
+.fmaintwo input{
+    height: 25px;
+    width: 220px;
+    border: none;
+    border-radius: 3px;
+}
+.fmaintwo button{
+    height: 25px;
+    width: 80px;
+    background-color: dodgerblue;
+    border: none;
+    float: right;
+    margin: 10px;
+}
+.fmaintwo button a{
+    color: white;
+    text-decoration: none;
+}
+.fmainthree{
+    height: 300px;
+    width: 230px;
+    float: left;
+    margin: 10px;
+}
+.fmainmid{
+    height: 62px;
+    width: 100%;
+    float: left; 
+}
+.fmainmid1{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.fmainmid2{
+    height: 70px;
+    width: 175px;
+    float: right;
+}
+.fmainmid2 p{
+    text-align: left;
+    color: white;
+    margin-top: -2px;
+    font-size: 14px;
+}
+.fmainmid2 a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.fmainfour{
+    height: 300px;
+    width: 230px;
+    float: left;
+    margin: 10px;
+}
+.fmainright{
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+.fmainright1{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.fmainright1 img{
+    height: 30px;
+    width: 30px;
+}
+.fmainright2{
+    height: 50px;
+    width: 180px;
+    float: left;
+}
+.fmainright2 p{
+    text-align: left;
+    color: white;
+    font-size: 14px;
+    margin-top: -1px;
+}
